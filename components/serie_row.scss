@@ -1,0 +1,39 @@
+/**
+ *Created by Mikael Lindahl on 2019-04-22
+ */
+
+.row-serie{
+  height:71px;
+}
+
+.row-serie-content{
+
+
+  height: 100%;
+  border-bottom: .25px solid #e8eaed;
+  border-right: .25px solid #e8eaed;
+  border-top: .25px solid #e8eaed;
+  width: 100%;
+
+}
+
+
+.row-serie-hero {
+  width: 30px;
+  height: 71px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.row-details{
+
+  font-size: 12px;
+
+}
+
+.row-serie-date-divider{
+
+  height: 51px;
+  font-size: 14px;
+
+}

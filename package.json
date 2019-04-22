@@ -1,0 +1,44 @@
+{
+  "name": "abios-rpp",
+  "version": "1.0.0",
+  "description": "Miniprojekt",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mickelindahl/abios-rpp.git"
+  },
+  "author": "Mikael Lindahl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mickelindahl/abios-rpp/issues"
+  },
+  "homepage": "https://github.com/mickelindahl/abios-rpp#readme",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "boom": "^7.3.0",
+    "bootstrap": "^4.3.1",
+    "cron": "^1.7.0",
+    "debug": "^4.1.1",
+    "dotenv": "^7.0.0",
+    "hapi": "^18.1.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "jquery": "^3.4.0",
+    "jsonfile": "^5.0.0",
+    "make-promises-safe": "^5.0.0",
+    "moment": "^2.24.0",
+    "next": "^8.1.0",
+    "next-plugin-transpile-modules": "^2.0.0",
+    "next-transpile-modules": "^2.3.1",
+    "node-sass": "^4.11.0",
+    "popper.js": "^1.15.0",
+    "qs": "^6.7.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-table": "^6.9.2",
+    "window-or-global": "^1.0.1"
+  }
+}

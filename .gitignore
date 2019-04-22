@@ -1,0 +1,13 @@
+
+# No editor stuff
+.idea
+
+# No environment variables in repo
+.env
+
+# No next stuff
+.next
+
+# No package lock
+package-lock.json
+node_modules
