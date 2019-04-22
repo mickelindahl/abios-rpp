@@ -75,8 +75,6 @@ export default class extends React.Component {
 
     render() {
 
-        debug('this.props.teams', this.props.teams)
-
         return (
 
             <div className={'container'}>

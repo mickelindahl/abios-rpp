@@ -35,11 +35,11 @@ export default function SerieRow(props) {
     // debug(props)
 
     return (
-        <div className={'row-serie d-flex flex-row align-items-center'}>
-            <div className="row-serie-hero"
+        <div className={'serie-row d-flex flex-row align-items-center'}>
+            <div className="serie-row-hero"
                  style={{backgroundImage: "url('%s')".replace('%s', props.game.images.rectangle)}}>
             </div>
-            <div className={'row-serie-content d-flex flex-row align-items-center'}>
+            <div className={'serie-row-content d-flex flex-row align-items-center'}>
                 <div className={'d-flex flex-row align-items-center'}>
                     <div className={'mx-3'}>{props.start.slice(11, 16)}</div>
                     <div className={'row-details'}>

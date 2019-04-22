@@ -20,7 +20,7 @@ export default function SerieRowDivider(props) {
 
     return (
         <div key={props.date}
-             className={'row-serie row-serie-date-divider d-flex flex-row align-items-center'}>
+             className={'serie-row serie-row-date-divider d-flex flex-row align-items-center'}>
             {moment(props.date).format(_c.DATE_FORMAT_PRETTY)}
         </div>
     )
